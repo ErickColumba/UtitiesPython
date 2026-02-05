@@ -1,11 +1,12 @@
 # chatbot.py
 import ollama
+import json
 
 
 class ContractChatbot:
     """Chatbot para consultar contratos usando RAG"""
 
-    def __init__(self, database, model_name="llama3.1:8b"):
+    def __init__(self, database, model_name="mistral:7b"):
         self.db = database
         self.model_name = model_name
         self.conversation_history = []

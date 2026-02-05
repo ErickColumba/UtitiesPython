@@ -51,7 +51,7 @@ def chat_with_contracts():
 # Ejemplo de uso
 if __name__ == "__main__":
     # Procesa un contrato
-    contract_id = process_and_store_contract("test.pdf")
+    contract_id = process_and_store_contract("test02.pdf")
 
     # Inicia el chat
-    chat_with_contracts()
+    #chat_with_contracts()
