@@ -3,7 +3,7 @@ from tkinter import filedialog
 import os
 
 # --- CONFIGURACIÓN ---
-palabra_a_buscar = "PiaAzure, is a  "
+palabra_a_buscar = "PiaAzure"
 palabra_nueva = "PiaAzure, "
 
 # Crear ventana oculta

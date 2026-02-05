@@ -3,7 +3,7 @@ from tkinter import filedialog
 import os
 
 # --- CONFIGURACIÓN ---
-texto_a_agregar = "PiaAzure"
+texto_a_agregar = "PiaAzure "
 
 # Crear ventana oculta
 root = tk.Tk()
