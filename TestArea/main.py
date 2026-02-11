@@ -51,7 +51,19 @@ def chat_with_contracts():
 # Ejemplo de uso
 if __name__ == "__main__":
     # Procesa un contrato
-    contract_id = process_and_store_contract("test02.pdf")
+    contract_id = process_and_store_contract("Cardow, Inc dba Cardow Airport Store Lease and Amend No. 1 10.2014.pdf")
 
     # Inicia el chat
-    #chat_with_contracts()
+    chat_with_contracts()
+
+#TODO
+"""     ################################ IMPORTANTEEEEE  ###########################################################
+        - Toca espesificar bien las etiquetas que se van a manejar por que si no el modelo se confunde (Base da datos)
+        Expreciones de las tablas y labesl de documento, se pued armar o extraer del entrenamiento del modelo de IA
+        Ejemplo : ZONAS --- Contexo  puesto de venta de comidas(Se puede clasificar como una ZONA), TOCA VERIFICAR EL CONEXTO PARA ENCONTRAR PALABRAS CLAVE 
+        ##############################################################################################################   
+        
+        - Cambiar el fitz (Lecatura de PDF) por temas de licencias 
+        - Cambiar el Poppler (Transfirmacion de PDF escaneado a Image para procesmiento de OCR )por temas de licencias 
+        - Entrenamiento de Lora,RAG, para especiliar el modelo para utlizacion del modelo , Mistral 7B  
+        - Integrar api para conexion ah internet  """

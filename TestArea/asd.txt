@@ -1,0 +1,31 @@
+TEXTO:
+{text_sample}
+
+Possible fields (only include those you find):
+- contract_type: type (e.g., "sale", "lease", "service agreement")
+- parties: ["Party 1 Name", "Party 2 Name"]
+- signature_date: "YYYY-MM-DD"
+- start_date: "YYYY-MM-DD"
+- end_date: "YYYY-MM-DD"
+- total_amount: number without symbols
+- currency: "USD", "EUR", "GBP", etc.
+- subject_matter: brief description
+- key_clauses: ["FIRST CLAUSE", "Key Commercial Terms"]
+- penalties: "description of penalties"
+
+
+
+TEXTO:
+{text_sample}
+
+Campos posibles (solo incluye los que encuentres):
+- tipo_contrato: tipo (ej: "compraventa", "arrendamiento")
+- partes: ["Nombre Parte 1", "Nombre Parte 2"]
+- fecha_firma: "YYYY-MM-DD"
+- fecha_inicio: "YYYY-MM-DD"
+- fecha_termino: "YYYY-MM-DD"
+- monto_total: número sin símbolos
+- moneda: "USD", "EUR", "MXN", etc.
+- objeto: descripción breve
+- clausulas_importantes: ["CLÁUSULA PRIMERA", "Cláusulas Comerciales Clave"]
+- penalidades: "descripción de penalidades"

@@ -64,7 +64,7 @@ class DocumentProcessor:
                 text = ""
                 for i, image in enumerate(images):
                     print(f"Procesando página {i + 1}/{len(images)}...")
-                    text += pytesseract.image_to_string(image, lang='spa')
+                    text += pytesseract.image_to_string(image, lang='eng')
                     text += "\n\n"
             except Exception as e:
                 print(f"Error en OCR: {e}")
@@ -85,4 +85,4 @@ class DocumentProcessor:
     def _extract_from_image(self, file_path):
         """Extrae texto de imagen con OCR"""
         image = Image.open(file_path)
-        return pytesseract.image_to_string(image, lang='spa')
+        return pytesseract.image_to_string(image, lang='eng')
